@@ -23,7 +23,7 @@ verifier_model = AutoModelForCausalLM.from_pretrained(
     trust_remote_code=True
 )
 
-conversation_history = [}
+conversation_history = []
 
 
 def verify_answer(question, context, generated_answer):
